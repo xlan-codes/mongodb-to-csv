@@ -1,0 +1,24 @@
+{
+  "name": "export_csv",
+  "description": "PHP MongoDB to csv",
+  "license": "MIT",
+  "keywords": ["monogdb", "php", "csv"],
+  "authors": [
+    {
+      "name": "Hekuran Islamaj",
+      "email": "hekuran.islamai@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4",
+    "mongodb/mongodb": "^1.9@dev",
+    "leroy-merlin-br/mongolid": "^2.1@dev",
+    "katzgrau/klogger": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "suggest": {
+  }
+}
